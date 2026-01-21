@@ -1,19 +1,7 @@
-# Raspberry Pi NIDS with Suricata + GitHub Alert Bot
-
-A lightweight **Network Intrusion Detection System (NIDS)** built on a **Raspberry Pi** using **Suricata**, with automated **GitHub-based alert notifications**.
-
-This project is designed to be:
-- Fully **CLI-based** (no GUI)
-- **Lightweight** and stable
-- Suitable for **learning blue-team / SOC fundamentals**
-- Easy to reproduce on low-resource hardware
-
----
-
 ## 📌 System Overview
 
 - **Hardware**: Raspberry Pi  
-- **Operating System**: Raspberry Pi OS Lite (32-bit)  
+- **Operating System**: Raspberry Pi OS  
 - **NIDS Engine**: Suricata  
 - **Alerting**: Custom Python bot → GitHub Issues  
 - **Interface**: Ethernet or Wi-Fi (monitor mode not required)
@@ -24,16 +12,9 @@ This project is designed to be:
 
 This setup uses:
 
-- **Raspberry Pi OS Lite (32-bit)**
-- Downloaded from the **official Raspberry Pi website**
+- **Raspberry Pi OS**
+- Downloaded from the **official Raspberry Pi website**: https://www.raspberrypi.com/software/operating-systems/#/
 - Installed using **Raspberry Pi Imager**
-- No desktop environment (CLI only)
-
-Why 32-bit Lite:
-- Better package compatibility on Raspberry Pi
-- Lower RAM and storage usage
-- More stable for IDS and security tooling
-
 ---
 
 ## 🔧 Initial OS Setup
